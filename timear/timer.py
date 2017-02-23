@@ -22,4 +22,3 @@ class Timer:
     def __exit__(self, *args):
         self.end = datetime.now()
         print("{}{} took {}{}".format(Colors.OKBLUE, self.func_name, self.end - self.start, Colors.ENDC))
-
