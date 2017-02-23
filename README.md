@@ -3,7 +3,7 @@
 The following code:
 ```python
  with Timer(func_name="PUT"):
-     // time consuming code here
+     # time consuming code here
 ```
 
 will result in:
